@@ -1,0 +1,138 @@
+body {
+    width: 1440px;
+    height: 100vh;
+    background: linear-gradient(180deg, #247bce 1%, #24d0c9 39%, #ff71b1 88%);
+    margin: 5% auto;
+    color: #fff;
+}
+
+header {
+    width: 1200px;
+    margin: 2rem auto;
+}
+
+header .logo {
+    width: 196.8px;
+    padding-left: 2rem;
+}
+
+main.container {
+    width: auto;
+    height: auto;
+    border: 2px solid #fe4398;
+    margin: 0 auto;
+    padding: 4.5rem 6.38rem;
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    position: relative;
+}
+
+main.container .grafismo {
+    background: url('../assets/Grafismo.png');
+    width: 31.9375rem;
+    height: 2.0625rem;
+    position: absolute;
+    top: -19px;
+    left: -2px;
+}
+
+main.container h1 {
+    font-family: 'Eras Demi', sans-serif;
+    font-size: 5rem;
+    line-height: 110%;
+}
+
+main.container h1 span {
+    color: #e33684;
+}
+
+form {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+    margin: 2.5rem 0;
+}
+
+form .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+form .input-group select,
+form .input-group input {
+    background: none;
+    color: white;
+    border: 1px solid #00F4BF;
+    border-radius: .5rem;
+    height: 3.5rem;
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+}
+
+form .input-group select {
+    width: 24.75rem;
+    appearance: none;
+    background: url('../assets/Arrow.png') no-repeat right 1rem top 50%;
+    color: black;
+    background-color: white;
+}
+
+form .input-group input {
+    width: 60px;
+}
+
+form .input-group input::placeholder {
+    text-align: center;
+}
+
+form button {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    border: none;
+    background-color: #e33684;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    width: 13rem;
+    box-shadow: 0px 0px 20px 0px rgba(232, 24, 107, 0.5);
+    cursor: pointer;
+}
+
+.hachuras {
+    margin: 5.19rem 0;
+}
+
+.container section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.container section h2 {
+    font-size: 2rem;
+    font-family: 'Eras Demi', sans-serif
+}
+
+.container section ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    font-size: 1.5rem;
+    font-family: 'Eras Demi', sans-serif;
+    font-weight: 400;
+}
+
+.container section ul li span {
+    color: #fe4398;
+    font-style: italic;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+}
